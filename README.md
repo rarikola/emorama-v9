@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+# Enorama v9 (Base Version)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Expo + React Native app** for visualizing emotional clusters using CSV-driven data and a live camera feed.
 
-## Get started
+## Features
+- Live front-facing camera view  
+- Fetch and parse emotion clusters from CSV  
+- Display top and bottom Plutchik emotion labels  
+- Dynamically preview cluster images and emotion weights  
+- Safe `.gitignore` excluding heavy assets and datasets  
 
-1. Install dependencies
+## Setup
+\`\`\`bash
+npm install
+npx expo start
+\`\`\`
 
-   ```bash
-   npm install
-   ```
+## Folder structure
+\`\`\`
+app/         → screens and layouts  
+assets/      → images and CSVs (excluded from repo)  
+.gitignore   → prevents pushing heavy assets  
+\`\`\`
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Version
+**v9-base:** stable snapshot before dynamic emotion visualization and backend integration.
