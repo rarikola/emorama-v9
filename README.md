@@ -1,4 +1,4 @@
-# Enorama v9 (Base Version)
+# Emorama v9 (Base Version)
 
 **Expo + React Native app** for visualizing emotional clusters using CSV-driven data and a live camera feed.
 
